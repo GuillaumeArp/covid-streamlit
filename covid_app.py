@@ -27,7 +27,7 @@ _max_width_()
 st.title('Covid Tracker App')
 
 def load_data():
-    return pd.read_csv('covid_data.csv')
+    return pd.read_csv('https://opendata.ecdc.europa.eu/covid19/nationalcasedeath_eueea_daily_ei/csv/data.csv')
 
 def world_cumulated(df_world_filtered_int):
 
